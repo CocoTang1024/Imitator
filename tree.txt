@@ -1,0 +1,1029 @@
+.
+├── assets
+│   ├── demo
+│   │   ├── 01-13.5m-1-0-1-1-21905134.5-2-1_voice_output.wav
+│   │   ├── 01-13.5m-1-0-1-1-21905134.5-2-2_voice_output.wav
+│   │   ├── 01-13.5m-1-0-1-1-21905134.5-2_voice_output.wav
+│   │   ├── 01-13.7m-1-1-1-0-21465262.5-2-2_voice_output.wav
+│   │   ├── 01-13.7m-1-1-1-0-21465262.5-2_voice_output.wav
+│   │   ├── 01-14.2m-1-1-0-1-21705022.5-2_voice_output.wav
+│   │   ├── 01-14.2m-1-1-1-1-22005131.5-2_2s_voice_output.wav
+│   │   ├── 01-14.2m-1-1-1-1-22005131.5-2-测量-2s_voice_output.wav
+│   │   ├── 01-14.2m-1-1-1-1-22005131.5-2_voice_output.wav
+│   │   ├── 01-14.3m-1-1-0-1-21665022.5-2_voice_output.wav
+│   │   ├── 01-14.3m-1-1-0-1-21745022.5-2_voice_output.wav
+│   │   ├── 01-14.4m-1-1-0-1-21585022.5-2_voice_output.wav
+│   │   ├── audio1.wav
+│   │   └── audio2.wav
+│   ├── release
+│   │   ├── mbp_weights_win03_weight05
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence01.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence02.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence03.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence04.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence05.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence06.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence07.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence08.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence09.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence10.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence11.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence12.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence13.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence14.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence15.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence16.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence17.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence18.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence19.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence20.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence21.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence22.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence23.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence24.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence25.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence26.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence27.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence28.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence29.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence30.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence31.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence32.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence33.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence34.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence35.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence36.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence37.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence38.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence39.npy
+│   │   │   ├── FaceTalk_170725_00137_TA_sentence40.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence01.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence02.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence03.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence04.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence05.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence06.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence07.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence08.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence09.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence10.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence11.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence12.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence13.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence14.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence15.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence16.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence17.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence18.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence19.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence20.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence21.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence22.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence23.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence24.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence25.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence26.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence27.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence28.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence29.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence30.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence31.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence32.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence33.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence34.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence35.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence36.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence37.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence38.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence39.npy
+│   │   │   ├── FaceTalk_170728_03272_TA_sentence40.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence01.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence02.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence03.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence04.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence05.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence06.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence07.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence08.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence09.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence10.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence11.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence12.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence13.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence14.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence15.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence16.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence17.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence18.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence19.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence20.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence21.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence22.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence23.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence24.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence25.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence26.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence27.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence28.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence29.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence30.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence31.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence32.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence33.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence34.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence35.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence36.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence37.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence38.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence39.npy
+│   │   │   ├── FaceTalk_170731_00024_TA_sentence40.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence01.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence02.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence03.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence04.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence05.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence06.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence07.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence08.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence09.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence10.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence11.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence12.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence13.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence14.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence15.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence16.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence17.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence18.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence19.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence20.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence21.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence22.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence23.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence24.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence25.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence26.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence27.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence28.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence29.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence30.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence31.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence33.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence34.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence35.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence36.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence37.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence38.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence39.npy
+│   │   │   ├── FaceTalk_170809_00138_TA_sentence40.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence03.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence04.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence05.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence06.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence07.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence08.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence09.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence10.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence11.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence12.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence13.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence14.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence15.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence16.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence17.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence18.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence19.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence20.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence21.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence22.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence23.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence25.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence26.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence27.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence28.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence29.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence30.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence31.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence32.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence33.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence34.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence35.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence36.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence37.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence38.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence39.npy
+│   │   │   ├── FaceTalk_170811_03274_TA_sentence40.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence01.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence02.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence03.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence04.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence05.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence06.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence07.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence08.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence09.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence10.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence11.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence12.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence13.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence14.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence15.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence16.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence17.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence18.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence19.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence20.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence21.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence22.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence23.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence24.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence25.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence26.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence27.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence28.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence29.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence30.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence31.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence32.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence33.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence34.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence35.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence36.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence37.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence38.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence39.npy
+│   │   │   ├── FaceTalk_170811_03275_TA_sentence40.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence01.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence02.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence03.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence04.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence05.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence06.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence07.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence08.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence09.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence10.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence11.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence12.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence13.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence14.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence15.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence16.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence17.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence18.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence19.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence20.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence21.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence22.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence23.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence24.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence25.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence26.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence27.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence28.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence29.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence30.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence31.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence32.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence33.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence34.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence35.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence36.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence37.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence38.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence39.npy
+│   │   │   ├── FaceTalk_170904_00128_TA_sentence40.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence01.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence02.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence03.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence04.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence05.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence06.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence07.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence08.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence09.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence10.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence11.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence12.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence13.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence14.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence15.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence16.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence17.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence18.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence19.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence20.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence21.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence22.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence23.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence24.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence25.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence26.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence27.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence28.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence29.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence30.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence31.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence32.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence33.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence34.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence35.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence36.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence37.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence38.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence39.npy
+│   │   │   ├── FaceTalk_170904_03276_TA_sentence40.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence01.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence02.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence03.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence04.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence05.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence06.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence07.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence08.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence09.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence10.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence11.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence12.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence13.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence14.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence15.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence16.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence17.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence18.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence19.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence20.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence21.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence22.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence23.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence24.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence25.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence26.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence27.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence28.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence29.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence30.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence31.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence32.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence33.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence34.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence35.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence36.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence37.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence38.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence39.npy
+│   │   │   ├── FaceTalk_170908_03277_TA_sentence40.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence01.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence02.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence03.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence04.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence05.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence06.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence07.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence08.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence09.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence10.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence12.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence13.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence14.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence15.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence16.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence17.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence18.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence19.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence20.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence21.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence22.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence23.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence24.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence25.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence26.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence27.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence28.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence29.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence30.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence31.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence32.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence33.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence34.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence35.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence36.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence37.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence38.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence39.npy
+│   │   │   ├── FaceTalk_170912_03278_TA_sentence40.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence01.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence02.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence03.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence04.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence05.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence06.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence07.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence08.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence09.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence10.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence11.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence13.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence14.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence15.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence16.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence17.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence18.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence19.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence20.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence21.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence22.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence23.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence24.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence25.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence26.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence27.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence28.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence29.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence30.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence31.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence32.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence33.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence34.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence35.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence36.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence37.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence39.npy
+│   │   │   ├── FaceTalk_170913_03279_TA_sentence40.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence01.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence02.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence03.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence04.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence05.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence06.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence07.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence08.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence09.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence10.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence11.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence12.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence13.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence14.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence15.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence16.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence17.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence18.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence19.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence20.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence21.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence22.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence23.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence24.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence25.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence26.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence27.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence28.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence29.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence30.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence31.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence32.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence33.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence34.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence35.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence36.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence37.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence38.npy
+│   │   │   ├── FaceTalk_170915_00223_TA_sentence39.npy
+│   │   │   └── FaceTalk_170915_00223_TA_sentence40.npy
+│   │   └── mbp_weights_win03_weight05.zip
+│   └── teaser.png
+├── cfg
+│   ├── generalized_model
+│   │   └── imitator_gen_ab_mbp_vel10.yaml
+│   └── style_adaption
+│       ├── subj0024_stg01_04seq.yaml
+│       └── subj0024_stg02_04seq.yaml
+├── download_asset.bat
+├── download_asset.sh
+├── environment.yml
+├── FLAMEModel
+│   ├── config.py
+│   ├── flame_masks.py
+│   ├── FLAME.py
+│   ├── __init__.py
+│   ├── model
+│   │   ├── flame_dynamic_embedding.npy
+│   │   ├── FLAME_masks.pkl
+│   │   ├── flame_static_embedding.pkl
+│   │   └── generic_model.pkl
+│   └── __pycache__
+│       ├── FLAME.cpython-38.pyc
+│       ├── flame_masks.cpython-38.pyc
+│       └── __init__.cpython-38.pyc
+├── imitator
+│   ├── data
+│   │   ├── data_loader_actor_wise_custom_init.py
+│   │   ├── data_loader.py
+│   │   ├── debug_data_loader.py
+│   │   └── __pycache__
+│   │       ├── data_loader_actor_wise_custom_init.cpython-38.pyc
+│   │       └── debug_data_loader.cpython-38.pyc
+│   ├── models
+│   │   ├── audio_feature_extractor.py
+│   │   ├── nn_model.py
+│   │   ├── __pycache__
+│   │   │   ├── nn_model.cpython-38.pyc
+│   │   │   └── wav2vec.cpython-38.pyc
+│   │   └── wav2vec.py
+│   ├── pl_style_trainer.py
+│   ├── pl_trainer.py
+│   ├── __pycache__
+│   │   ├── pl_style_trainer.cpython-38.pyc
+│   │   └── pl_trainer.cpython-38.pyc
+│   ├── test
+│   │   ├── data_cfg.yaml
+│   │   ├── __pycache__
+│   │   │   └── test_model_voca.cpython-38.pyc
+│   │   ├── test_model_external_audio.py
+│   │   └── test_model_voca.py
+│   └── utils
+│       ├── custom_callbacks.py
+│       ├── init_from_config.py
+│       ├── losses.py
+│       ├── mbp_loss.py
+│       ├── __pycache__
+│       │   ├── custom_callbacks.cpython-38.pyc
+│       │   ├── init_from_config.cpython-38.pyc
+│       │   ├── losses.cpython-38.pyc
+│       │   ├── mbp_loss.cpython-38.pyc
+│       │   ├── render_helper.cpython-38.pyc
+│       │   ├── ringnet_lip_static_embedding.cpython-38.pyc
+│       │   └── util_pyrenderer.cpython-38.pyc
+│       ├── render_helper.py
+│       ├── ringnet_lip_static_embedding.py
+│       └── util_pyrenderer.py
+├── install.bat
+├── install.sh
+├── log
+│   └── logs
+│       ├── 2025-07-26T15-14-59_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T15-14-59-lightning.yaml
+│       │   │   └── 2025-07-26T15-14-59-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           ├── events.out.tfevents.1753514104.user-SYS-420GP-TNR.1797180.0
+│       │           └── hparams.yaml
+│       ├── 2025-07-26T15-16-31_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T15-16-31-lightning.yaml
+│       │   │   └── 2025-07-26T15-16-31-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           ├── events.out.tfevents.1753514195.user-SYS-420GP-TNR.1798151.0
+│       │           └── hparams.yaml
+│       ├── 2025-07-26T15-18-20_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T15-18-20-lightning.yaml
+│       │   │   └── 2025-07-26T15-18-20-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           └── checkpoints
+│       ├── 2025-07-26T15-25-04_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T15-25-04-lightning.yaml
+│       │   │   └── 2025-07-26T15-25-04-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           └── checkpoints
+│       ├── 2025-07-26T15-29-34_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T15-29-34-lightning.yaml
+│       │   │   └── 2025-07-26T15-29-34-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           └── checkpoints
+│       ├── 2025-07-26T15-29-57_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T15-29-57-lightning.yaml
+│       │   │   └── 2025-07-26T15-29-57-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           └── checkpoints
+│       ├── 2025-07-26T15-36-41_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T15-36-41-lightning.yaml
+│       │   │   └── 2025-07-26T15-36-41-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           └── checkpoints
+│       ├── 2025-07-26T15-49-18_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T15-49-18-lightning.yaml
+│       │   │   └── 2025-07-26T15-49-18-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           └── checkpoints
+│       ├── 2025-07-26T15-53-42_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T15-53-42-lightning.yaml
+│       │   │   └── 2025-07-26T15-53-42-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           └── checkpoints
+│       ├── 2025-07-26T15-57-09_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T15-57-09-lightning.yaml
+│       │   │   └── 2025-07-26T15-57-09-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           └── checkpoints
+│       ├── 2025-07-26T15-57-36_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T15-57-36-lightning.yaml
+│       │   │   └── 2025-07-26T15-57-36-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           └── checkpoints
+│       ├── 2025-07-26T16-04-03_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T16-04-03-lightning.yaml
+│       │   │   └── 2025-07-26T16-04-03-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           └── checkpoints
+│       ├── 2025-07-26T16-06-21_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T16-06-21-lightning.yaml
+│       │   │   └── 2025-07-26T16-06-21-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           └── checkpoints
+│       ├── 2025-07-26T16-06-37_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T16-06-37-lightning.yaml
+│       │   │   └── 2025-07-26T16-06-37-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           └── checkpoints
+│       ├── 2025-07-26T16-19-36_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T16-19-36-lightning.yaml
+│       │   │   └── 2025-07-26T16-19-36-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           └── checkpoints
+│       ├── 2025-07-26T16-20-03_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T16-20-03-lightning.yaml
+│       │   │   └── 2025-07-26T16-20-03-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           ├── checkpoints
+│       │           ├── events.out.tfevents.1753518192.user-SYS-420GP-TNR.1816522.0
+│       │           └── hparams.yaml
+│       ├── 2025-07-26T17-07-48_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   └── configs
+│       ├── 2025-07-26T17-14-26_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   └── configs
+│       ├── 2025-07-26T17-26-18_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   └── last.ckpt
+│       │   └── configs
+│       │       ├── 2025-07-26T17-26-18-lightning.yaml
+│       │       └── 2025-07-26T17-26-18-project.yaml
+│       ├── 2025-07-26T17-28-10_imitator_gen_ab_mbp_vel10_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   ├── epoch=000001.ckpt
+│       │   │   └── last.ckpt
+│       │   └── configs
+│       │       ├── 2025-07-26T17-28-10-lightning.yaml
+│       │       └── 2025-07-26T17-28-10-project.yaml
+│       ├── 2025-07-26T17-31-09_subj0024_stg01_04seq_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   ├── epoch=000001.ckpt
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T17-31-09-lightning.yaml
+│       │   │   └── 2025-07-26T17-31-09-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           ├── events.out.tfevents.1753522283.user-SYS-420GP-TNR.1836435.0
+│       │           └── hparams.yaml
+│       ├── 2025-07-26T17-32-02_subj0024_stg02_04seq_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   ├── epoch=000001.ckpt
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T17-32-02-lightning.yaml
+│       │   │   └── 2025-07-26T17-32-02-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           ├── events.out.tfevents.1753522336.user-SYS-420GP-TNR.1836964.0
+│       │           └── hparams.yaml
+│       ├── 2025-07-26T17-33-52_subj0024_stg02_04seq_ADAM_nep200
+│       │   ├── checkpoints
+│       │   │   ├── epoch=000005.ckpt
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T17-33-52-lightning.yaml
+│       │   │   └── 2025-07-26T17-33-52-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           ├── events.out.tfevents.1753522444.user-SYS-420GP-TNR.1837765.0
+│       │           └── hparams.yaml
+│       ├── 2025-07-26T21-35-54_subj0024_stg02_04seq_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   ├── epoch=000001.ckpt
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-26T21-35-54-lightning.yaml
+│       │   │   └── 2025-07-26T21-35-54-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           ├── events.out.tfevents.1753536963.user-SYS-420GP-TNR.1931175.0
+│       │           └── hparams.yaml
+│       ├── 2025-07-28T20-59-52_subj0024_stg02_04seq_ADAM_nep2
+│       │   ├── checkpoints
+│       │   │   ├── epoch=000001.ckpt
+│       │   │   └── last.ckpt
+│       │   ├── configs
+│       │   │   ├── 2025-07-28T20-59-52-lightning.yaml
+│       │   │   └── 2025-07-28T20-59-52-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           ├── events.out.tfevents.1753707602.user-SYS-420GP-TNR.1832367.0
+│       │           └── hparams.yaml
+│       ├── 2025-07-28T21-18-40_subj0024_stg02_04seq_ADAM_nep2
+│       │   ├── checkpoints
+│       │   ├── configs
+│       │   │   ├── 2025-07-28T21-18-40-lightning.yaml
+│       │   │   └── 2025-07-28T21-18-40-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           ├── events.out.tfevents.1753708875.user-SYS-420GP-TNR.1876332.0
+│       │           └── hparams.yaml
+│       ├── 2025-07-28T21-57-15_subj0024_stg02_04seq_ADAM_nep2
+│       │   ├── checkpoints
+│       │   ├── configs
+│       │   │   ├── 2025-07-28T21-57-15-lightning.yaml
+│       │   │   └── 2025-07-28T21-57-15-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           ├── events.out.tfevents.1753711064.user-SYS-420GP-TNR.1952456.0
+│       │           └── hparams.yaml
+│       ├── 2025-07-28T22-11-57_subj0024_stg02_04seq_ADAM_nep2
+│       │   ├── checkpoints
+│       │   ├── configs
+│       │   │   ├── 2025-07-28T22-11-57-lightning.yaml
+│       │   │   └── 2025-07-28T22-11-57-project.yaml
+│       │   └── tb
+│       │       └── version_0
+│       │           ├── events.out.tfevents.1753711957.user-SYS-420GP-TNR.1981939.0
+│       │           └── hparams.yaml
+│       └── 2025-07-28T22-16-05_subj0024_stg02_04seq_ADAM_nep2
+│           ├── checkpoints
+│           ├── configs
+│           │   ├── 2025-07-28T22-16-05-lightning.yaml
+│           │   └── 2025-07-28T22-16-05-project.yaml
+│           └── tb
+│               └── version_0
+│                   ├── events.out.tfevents.1753712184.user-SYS-420GP-TNR.1990284.0
+│                   └── hparams.yaml
+├── logs
+│   └── tb
+│       ├── version_0
+│       │   ├── events.out.tfevents.1753521993.user-SYS-420GP-TNR.1834316.0
+│       │   └── hparams.yaml
+│       └── version_1
+│           ├── events.out.tfevents.1753522100.user-SYS-420GP-TNR.1835071.0
+│           └── hparams.yaml
+├── main.py
+├── pretrained_model
+│   ├── generalized_model_mbp_vel
+│   │   ├── checkpoints
+│   │   │   └── epoch=000149.ckpt
+│   │   ├── configs
+│   │   │   ├── 2023-02-28T19-51-30-lightning.yaml
+│   │   │   └── 2023-02-28T19-51-30-project.yaml
+│   │   ├── external_audio_results
+│   │   │   ├── FaceTalk_170731_00024_TA_audio1_condition_2_wAudio.mp4
+│   │   │   └── results_dict.npy
+│   │   └── voca_eval_with_fixed_test_cond
+│   │       ├── dump
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence21.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence22.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence23.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence24.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence25.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence26.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence27.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence28.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence29.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence30.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence31.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence32.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence33.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence34.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence35.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence36.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence37.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence38.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence39.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence40.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence21.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence22.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence23.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence24.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence25.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence26.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence27.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence28.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence29.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence30.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence31.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence33.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence34.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence35.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence36.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence37.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence38.npy
+│   │       │   ├── FaceTalk_170809_00138_TA_sentence39.npy
+│   │       │   └── FaceTalk_170809_00138_TA_sentence40.npy
+│   │       ├── results.json
+│   │       └── vid
+│   │           ├── FaceTalk_170731_00024_TA_sentence21_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence22_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence23_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence24_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence25_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence26_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence27_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence28_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence29_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence30_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence31_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence32_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence33_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence34_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence35_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence36_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence37_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence38_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence39_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence40_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence21_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence22_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence23_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence24_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence25_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence26_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence27_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence28_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence29_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence30_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence31_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence33_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence34_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence35_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence36_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence37_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence38_wAudio.mp4
+│   │           ├── FaceTalk_170809_00138_TA_sentence39_wAudio.mp4
+│   │           └── FaceTalk_170809_00138_TA_sentence40_wAudio.mp4
+│   ├── subj0024_stg02_04seq
+│   │   ├── checkpoints
+│   │   │   └── epoch=000709.ckpt
+│   │   ├── configs
+│   │   │   ├── 2023-03-02T22-15-05-lightning.yaml
+│   │   │   └── 2023-03-02T22-15-05-project.yaml
+│   │   └── voca_eval_with_fixed_test_cond
+│   │       ├── dump
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence21.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence22.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence23.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence24.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence25.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence26.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence27.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence28.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence29.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence30.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence31.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence32.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence33.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence34.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence35.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence36.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence37.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence38.npy
+│   │       │   ├── FaceTalk_170731_00024_TA_sentence39.npy
+│   │       │   └── FaceTalk_170731_00024_TA_sentence40.npy
+│   │       ├── results.json
+│   │       └── vid
+│   │           ├── FaceTalk_170731_00024_TA_sentence21_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence22_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence23_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence24_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence25_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence26_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence27_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence28_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence29_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence30_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence31_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence32_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence33_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence34_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence35_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence36_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence37_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence38_wAudio.mp4
+│   │           ├── FaceTalk_170731_00024_TA_sentence39_wAudio.mp4
+│   │           └── FaceTalk_170731_00024_TA_sentence40_wAudio.mp4
+│   └── subj0138_stg02_04seq
+│       ├── checkpoints
+│       │   └── epoch=001089.ckpt
+│       ├── configs
+│       │   ├── 2023-03-06T15-30-15-lightning.yaml
+│       │   └── 2023-03-06T15-30-15-project.yaml
+│       └── voca_eval_with_fixed_test_cond
+│           ├── dump
+│           │   ├── FaceTalk_170809_00138_TA_sentence21.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence22.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence23.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence24.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence25.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence26.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence27.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence28.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence29.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence30.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence31.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence33.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence34.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence35.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence36.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence37.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence38.npy
+│           │   ├── FaceTalk_170809_00138_TA_sentence39.npy
+│           │   └── FaceTalk_170809_00138_TA_sentence40.npy
+│           ├── results.json
+│           └── vid
+│               ├── FaceTalk_170809_00138_TA_sentence21_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence22_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence23_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence24_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence25_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence26_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence27_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence28_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence29_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence30_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence31_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence33_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence34_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence35_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence36_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence37_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence38_wAudio.mp4
+│               ├── FaceTalk_170809_00138_TA_sentence39_wAudio.mp4
+│               └── FaceTalk_170809_00138_TA_sentence40_wAudio.mp4
+├── __pycache__
+│   └── main.cpython-38.pyc
+├── README.md
+├── tree
+├── tree.txt
+└── voice_output.zip
+
+198 directories, 828 files
